@@ -1,0 +1,71 @@
+🔹 What is the OSI Model?
+Answer:
+
+The OSI model stands for Open Systems Interconnection.
+It is a conceptual framework that standardizes how data travels through a network in seven layers, from the sender to the receiver.
+Each layer has a specific role and helps different systems communicate efficiently.
+
+
+
+🔹 Why is the OSI Model important?
+Answer:
+
+It helps different hardware and software systems to communicate using standard protocols.
+It also makes network design, troubleshooting, and development easier and modular by dividing it into layers.
+
+
+🔹 Can you name and explain the 7 layers of the OSI Model?
+Answer:
+
+Yes, the 7 layers of OSI model from bottom to top are:
+
+
+
+1️⃣ Physical Layer
+Deals with the actual physical connection (cables, signals, voltage).
+
+It transmits raw bits (0s and 1s) over the medium.
+
+2️⃣ Data Link Layer
+Converts bits into frames and adds MAC addresses.
+
+Handles error detection, flow control, and link management.
+
+3️⃣ Network Layer
+Responsible for routing the data using IP addresses.
+
+Finds the best path for packet delivery.
+
+4️⃣ Transport Layer
+Ensures error-free, reliable delivery of messages.
+
+Supports both connection-oriented (TCP) and connectionless (UDP) communication.
+
+5️⃣ Session Layer
+Manages the start, control, and end of communication sessions.
+
+Maintains sessions between devices.
+
+6️⃣ Presentation Layer
+Translates, compresses, and encrypts data.
+
+Converts data into a format understandable by the application layer.
+
+7️⃣ Application Layer
+Closest to the user.
+
+Provides services like email (SMTP), file transfer (FTP), web (HTTP).
+
+🔹 How to Remember the OSI Layers?
+Use this trick:
+"Please Do Not Throw Sausage Pizza Away"
+(Physical, Data Link, Network, Transport, Session, Presentation, Application)
+
+
+
+
+
+
+
+
+
