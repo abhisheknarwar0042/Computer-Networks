@@ -1,0 +1,31 @@
+10. Private vs Public IP Address
+Private IPs: Reserved ranges used within private networks, not valid on the internet. Require NAT or proxy to access the internet.
+
+Public IPs: Assigned by ISPs and used to communicate over the internet.
+
+
+11. RAID (Redundant Array of Independent Disks)
+Combines multiple hard drives to improve fault tolerance and performance.
+
+
+12. Netstat Command
+Shows current TCP/IP connections and statistics on a device.
+
+13. Ping Command
+Tests network connectivity between devices using IP or hostname.
+
+
+14. Peer-to-peer Processes
+Processes on different machines communicating at the same network layer.
+
+
+
+15. Types of Network Communication
+Unicasting: Sending data to a single node.
+
+Anycasting: Sending data to any one node out of a group, often used in Content Delivery Networks.
+
+Multicasting: Sending data to a specific subset of nodes.
+
+Broadcasting: Sending data to all nodes on a network (e.g., DHCP and ARP).
+
