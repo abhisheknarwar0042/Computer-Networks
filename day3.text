@@ -1,0 +1,49 @@
+✅ 1. What is the TCP/IP Model?
+Answer:
+The TCP/IP model is a simplified version of the OSI model with four layers: Link, Internet, Transport, and Application. It was developed by the US Department of Defense. It is named after two core protocols: TCP (Transmission Control Protocol) and IP (Internet Protocol), which help in reliable communication over the internet.
+
+
+✅ 2. Difference Between HTTP and HTTPS
+Answer:
+HTTP stands for HyperText Transfer Protocol. It allows communication between web browsers and servers, but it is not secure.
+HTTPS is the secure version, which uses SSL/TLS encryption for safe communication. HTTP uses port 80, and HTTPS uses port 443. HTTPS is preferred for sensitive data like online banking and login pages.
+
+✅ 3. What is DNS?
+Answer:
+DNS stands for Domain Name System. It translates domain names like www.google.com into IP addresses that computers can understand. It was introduced in 1983 by Paul Mockapetris and Jon Postel. Without DNS, users would have to remember numeric IP addresses.
+
+
+✅ 4. How does DNS work?
+Answer:
+When a user types a website URL in the browser, DNS translates that domain name into its IP address. This IP is used to locate and access the correct server so the web page can load. This whole process happens in the background, quickly and automatically.
+
+
+
+✅ 5. What is a DNS Forwarder?
+Answer:
+A DNS forwarder is used when a DNS server can't resolve a domain name by itself. In that case, it forwards the query to an external DNS server for resolution. It helps improve speed and reduce workload on local servers.
+
+
+✅ 6. What is SMTP?
+Answer:
+SMTP stands for Simple Mail Transfer Protocol. It is used to send emails between servers. It works on port 25 and supports both end-to-end and store-and-forward message delivery. SMTP sets rules for how emails are transferred over the internet.
+
+
+✅ 7. Difference Between TCP and UDP
+| Feature        | TCP                       | UDP                           |
+| -------------- | ------------------------- | ----------------------------- |
+| Type           | Connection-oriented       | Connectionless                |
+| Speed          | Slower but reliable       | Faster but less reliable      |
+| Error Checking | Yes, with acknowledgment  | Basic using checksum          |
+| Use Case       | Web, email, file transfer | Video streaming, gaming, VoIP |
+
+
+Short Answer:
+TCP is reliable and ensures data is delivered in order. UDP is faster and lightweight but does not guarantee delivery. TCP is used where accuracy is important; UDP is used where speed is more important.
+
+
+
+📌 Pro Tip for Interview:
+End your answers with a small real-life example:
+
+"For example, when we watch YouTube, UDP is used for fast streaming. But when we send an email, TCP ensures it reaches the correct person."
