@@ -1,0 +1,78 @@
+1. What happens when you enter google.com in a web browser?
+The browser first checks its cache for the website content. If it’s available and fresh, it displays it immediately.
+
+If not, it checks the cache for the IP address of the URL. If not found, it asks the OS to perform a DNS lookup using UDP to find the IP address from a DNS server.
+
+Once the IP is found, a TCP connection is established with the server via a three-way handshake.
+
+The browser sends an HTTP request to the server.
+
+The server processes the request and sends back an HTTP response.
+
+The browser processes the response, caches the data if allowed, and renders the content.
+
+The TCP connection can be closed or reused for further requests.
+
+
+
+2. Hub vs Switch
+Hub operates at the Physical layer. It broadcasts incoming signals to all ports except the source. No packet filtering; works in half-duplex mode.
+
+Switch operates at the Data Link layer. It connects devices and filters traffic based on MAC addresses, enabling full-duplex communication. More efficient than a hub.
+
+
+3. Subnetting
+Subnetting divides a large network into smaller subnetworks (subnets).
+
+It improves routing efficiency, enhances security, and reduces the time needed to find host addresses in routing tables.
+
+
+
+4. Network Reliability Factors
+Downtime: Time taken to recover from failures.
+
+Failure Frequency: How often the network fails.
+
+Catastrophe: Unexpected disasters like fire or earthquakes affecting the network.
+
+
+5. Criteria for Effective Networks
+Performance: Measures like transmission time and response time.
+
+Reliability: How often the network fails.
+
+Robustness: Strength and stability of the network.
+
+Security: Protecting data from unauthorized access and viruses.
+
+6. Node and Link
+Node: A device like a computer connected to a network.
+
+Link: The physical medium (like cable or fiber optics) connecting the nodes.
+
+7. Gateway vs Router
+Both connect networks and forward data.
+
+Router: Forwards data between similar networks.
+
+Gateway: Connects and translates between different types of networks.
+
+
+8. NIC (Network Interface Card)
+A hardware component that connects a computer to a network.
+
+Each NIC has a unique MAC address.
+
+Mostly used in desktops for wired or wireless connections.
+
+
+
+9. POP3 (Post Office Protocol version 3)
+Used for accessing mail on a client machine.
+
+Supports two modes:
+
+Delete Mode: Deletes email from the server after download.
+
+Keep Mode: Keeps a copy of emails on the server.
+
