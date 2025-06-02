@@ -1,0 +1,68 @@
+What is a Protocol?
+A protocol is a set of rules that controls how data is communicated between devices. It includes:
+
+Syntax: How data is structured or formatted.
+
+Semantics: The meaning of each part of the data.
+
+Timing: When data should be sent and how fast.
+
+
+
+
+Key Protocols:
+DHCP (Dynamic Host Configuration Protocol):
+DHCP automatically assigns IP addresses and other network settings to devices in a network so they can communicate easily. It works on port 67 and simplifies network management.
+
+FTP (File Transfer Protocol):
+FTP helps transfer files between computers over a network. It’s commonly used to download files from servers. FTP uses port 27 by default.
+
+ICMP (Internet Control Message Protocol):
+ICMP helps in error reporting and diagnosing network problems. For example, it is used by routers to check if data is reaching its destination correctly. It uses port 7.
+
+ARP (Address Resolution Protocol):
+ARP converts logical IP addresses into physical MAC addresses, which are needed to send data within a local network. It helps devices find each other on the same network.
+
+RIP (Routing Information Protocol):
+RIP is used by routers to find the best path to send data from one network to another using the hop count method. It is suited for small or medium-sized networks.
+
+Bonus Tip for Interview:
+If asked why protocols are important, you can say:
+“Protocols are important because they make sure all devices understand each other, sending and receiving data correctly and efficiently.”
+
+
+
+MAC Address and IP Address – Interview Answer
+
+MAC Address (Media Access Control Address):
+
+It is a unique physical address assigned to a device’s network interface card (NIC) by the manufacturer.
+
+It identifies the device on the local network physically.
+
+IP Address (Internet Protocol Address):
+
+It is assigned by the Internet Service Provider (ISP) or network administrator.
+
+It identifies the device’s connection on a network, allowing it to communicate over the internet or other networks.
+
+Main difference:
+
+MAC address uniquely identifies the device itself (hardware level).
+
+IP address uniquely identifies the device’s network location or connection.
+
+
+
+Ipconfig and Ifconfig
+Ipconfig (Internet Protocol Configuration) is a command used in Microsoft Windows operating systems to view and configure network interface settings such as IP address, subnet mask, and default gateway.
+
+Ifconfig (Interface Configuration) is a similar command used in Linux, Mac, and UNIX systems for viewing and configuring network interfaces.
+
+
+Firewall
+A firewall is a network security system that monitors incoming and outgoing network traffic and blocks or allows data based on a set of security rules or policies.
+
+It acts as a protective barrier between a public network (like the internet) and a private network (like your home or office network).
+
+Firewalls can be hardware devices, software programs, or a combination of both, providing an important layer of security by preventing unauthorized access.
