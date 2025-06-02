@@ -1,0 +1,106 @@
+✅ 1. What is a Network?
+Interview Answer:
+
+A network is a group of connected devices that can share data with each other using a communication link. These devices, also called nodes, are connected either directly or indirectly to exchange data and resources like files, printers, etc.
+
+Tip: Keep it short and add an example.
+Example: "For example, when we connect our computer and mobile to the same Wi-Fi, it creates a small network."
+
+
+✅ 2. What is Network Topology?
+Interview Answer:
+
+Network topology is the physical layout of devices in a network. It shows how computers and cables are arranged and connected.
+
+
+
+✅ Types of Network Topologies (with Simple Interview Points):
+⭐ Star Topology
+In star topology, all devices are connected to a central device like a switch or hub.
+Advantage: Easy to manage and troubleshoot.
+Disadvantage: If the central device fails, the whole network goes down.
+Used in: Offices, homes.
+
+🔄 Ring Topology
+In ring topology, each device connects to two others, forming a loop.
+Advantage: No need for central device.
+Disadvantage: Failure of one node affects the whole network.
+Used in: Rare, but used in SONET, SDH.
+
+🚍 Bus Topology
+All devices are connected to a single central cable (bus).
+Advantage: Simple and cheap.
+Disadvantage: If the bus cable breaks, entire network fails.
+Used in: Small networks.
+
+🕸️ Mesh Topology
+In mesh topology, every device is connected to every other device.
+Advantage: Very reliable.
+Disadvantage: High cost and difficult to install.
+Used in: Military, critical systems.
+
+🌲 Tree Topology
+It is a mix of star and bus topology. Groups of star topologies are connected to a main bus.
+Used in: Large organizations.
+
+🧩 Hybrid Topology
+It combines two or more different topologies.
+Advantage: Flexible and scalable.
+Used in: Big enterprise networks.
+
+| Type | Full Form                 | Coverage Area                            | Example                                    |
+| ---- | ------------------------- | ---------------------------------------- | ------------------------------------------ |
+| PAN  | Personal Area Network     | \~10 meters                              | Bluetooth between phone & laptop           |
+| LAN  | Local Area Network        | Small area (office, school)              | Office Wi-Fi                               |
+| HAN  | Home Area Network         | Inside home                              | Printer, laptop, etc.                      |
+| CAN  | Campus Area Network       | Campus area                              | University network                         |
+| MAN  | Metropolitan Area Network | City-wide                                | City Wi-Fi                                 |
+| WAN  | Wide Area Network         | Country/Continents                       | Internet                                   |
+| GAN  | Global Area Network       | Entire globe (uses satellite)            | GPS                                        |
+| VPN  | Virtual Private Network   | Secure private network over the internet | Used by companies for secure remote access |
+
+
+✅ 4. What is VPN (Virtual Private Network)?
+Interview Answer:
+
+VPN is a private and secure network created over the public internet. It helps users connect to a company's network securely from remote locations.
+
+Advantages (in short):
+
+Secure data transfer
+
+Remote access to office networks
+
+Protects online identity
+
+Encrypts internet traffic
+
+Types of VPN:
+
+Access VPN: For individual remote users.
+
+Site-to-Site VPN: For connecting two office branches.
+
+Intranet VPN: Internal company use
+
+Extranet VPN: Connect with partners/suppliers securely
+
+
+
+
+✅ 5. What is IPv4?
+Interview Answer:
+
+IPv4 is a 32-bit address used to identify devices on a network. It has 4 parts (octets) separated by dots. Each part can have a value between 0 to 255.
+
+Example: 192.168.0.1
+Classes of IPv4:
+
+| Class | Range                       | Use                   |
+| ----- | --------------------------- | --------------------- |
+| A     | 1.0.0.0 – 126.255.255.255   | Large networks        |
+| B     | 128.0.0.0 – 191.255.255.255 | Medium networks       |
+| C     | 192.0.0.0 – 223.255.255.255 | Small networks        |
+| D     | 224.0.0.0 – 239.255.255.255 | Multicasting          |
+| E     | 240.0.0.0 – 255.255.255.255 | Reserved for research |
+
